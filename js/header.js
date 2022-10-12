@@ -5,8 +5,10 @@ function header() {
     
     <div class="menu_right_left">
                           <ul>
-                           <li class="wow fadeInDown" data-wow-delay="0.5s"><p>MAIL US :info@assumptioncollegeofnursing.com </p></li>
-                            <li class="wow fadeInDown" data-wow-delay="0.6s"><p>CONTACT : +91 9995 698 793</p></li>
+                           <li class="wow fadeInDown" data-wow-delay="0.5s"><p><a href="#">Login </a> / <a href="#"> Register </a></p></li>
+                            <li class="wow fadeInDown" data-wow-delay="0.6s"><p> View cart </p></li>
+                            <li class="cart" data-wow-delay="0.6s"><a href="cart.html">   <div id="cart-container"> <div id="cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i> 
+                                </div> <span id="itemCount"></span> </div></a></li>
                           </ul>
                           <div class="clear"></div>
                          </div>

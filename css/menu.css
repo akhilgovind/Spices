@@ -351,11 +351,11 @@
   width: 35px;
   cursor: pointer;
   z-index: 100;
-  background:#ffffff;
-  border-top:#ffffff solid 25px;
-  border-bottom:#ffffff solid 17px;
-  border-right:#ffffff solid 17px;
-  border-left:#ffffff solid 17px;
+  background:#b78e5b;
+  border-top:#b78e5b solid 25px;
+  border-bottom:#b78e5b solid 17px;
+  border-right:#b78e5b solid 17px;
+  border-left:#b78e5b solid 17px;
   transition: opacity .25s ease;
     opacity:1;
 }
@@ -365,19 +365,19 @@
 .button_container.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
           transform: translateY(11px) translateX(0) rotate(45deg);
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 .button_container.active .middle {
   opacity: 0;
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 .button_container.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
           transform: translateY(-11px) translateX(0) rotate(-45deg);
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 .button_container span {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   border: none;
   height: 2px;
   width: 100%;
